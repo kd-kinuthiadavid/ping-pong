@@ -1,6 +1,33 @@
 body{
-background: url("../images/bg1.jpg");
-background-repeat: no-repeat;
-background-size: cover;
+background-color: #DAD0EC;
+/* background-size: cover; */
+
+}
+.PING-PONG{
+  border-radius: 100px;
+  margin:auto;
+  width: 300px;
+  display: block;
+}
+.Creator{
+  padding-top: 50px;
+font-family: 'Limelight', cursive;
+font-size: 16px;
+font-style: italic;
+font-weight: bold;
+}
+.Rules{
+  padding-top: 50px;
+  font-family: 'Limelight', cursive;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+
+}
+.PLAY{
+  font-family: 'Limelight', cursive;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
 
 }

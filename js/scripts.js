@@ -2,11 +2,11 @@ function mypingfunction(myresult){
  var storedarray = [];
 
  for (var i = 1; i <= myresult; i++) {
-   if ((i%3) == 0) {
+   if ((i%3) === 0) {
      storedarray.push("ping");
-   }else if ((i%5) == 0 ){
+   }else if ((i%5) === 0 ){
      storedarray.push("pong");
-   }else if ((i%15) == 0) {
+   }else if ((i%15) === 0) {
      storedarray.push("pingpong");
    }else {
      storedarray.push(i);
