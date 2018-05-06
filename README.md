@@ -3,6 +3,9 @@
 #### By **KINUTHIA DAVID**
 ## Description
 Allows a user to input a number and displays ping for numbers divisible by 3, pong for numbers divisible by 5, and pingpong for numbers divisible by 15.
+![Landing page photo](images/screenshot.png)
+![Landing page photo](images/screenshotPing.png)
+
 #### Specifications
 ### allows a user to input a number
 ### numbers that are divisible by 3 become ping
@@ -12,7 +15,7 @@ Allows a user to input a number and displays ping for numbers divisible by 3, po
 ### numbers that are divisible by 15 become PINGPONG
 *  else if ((i%15) === 0) {storedarray.push("pingpong");
 ### if a number is neither divisible  by 3, 5, or 15, the number is displayed as it is
-* else {storedarray.push(i); 
+* else {storedarray.push(i);
 
 
 
@@ -20,6 +23,7 @@ Allows a user to input a number and displays ping for numbers divisible by 3, po
 
 ## Setup/Installation Requirements
 * Does not require any installation as it is a webpage and not a software-based game
+[ping pong](https://kd-kinuthiadavid.github.io/ping-pong/)
 
 ## Known Bugs
 No known bugs as od the time of publishing
