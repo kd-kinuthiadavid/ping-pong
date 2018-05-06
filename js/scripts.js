@@ -1,31 +1,31 @@
-function mypingfunction(myresult){
- var storedarray = [];
+function play(userInput){
+ var storedArray = [];
 
- for (var i = 1; i <= myresult; i++) {
+ for (var i = 1; i <= userInput; i++) {
    if ((i%3) === 0) {
-     storedarray.push("ping");
+     storedArray.push("ping");
    }else if ((i%5) === 0 ){
-     storedarray.push("pong");
+     storedArray.push("pong");
    }else if ((i%15) === 0) {
-     storedarray.push("pingpong");
+     storedArray.push("pingpong");
    }else {
-     storedarray.push(i);
+     storedArray.push(i);
    }
  }
-// alert(storedarray);
-return storedarray;
+// alert(storedArray);
+return storedArray;
 }
 
 
 $(document).ready(function(){
- $("form#myformid").submit(function(event){
+ $("form#myFormId").submit(function(event){
       // event.preventDefault();
    $("#answers").empty();
-   var myresult = parseInt($("input#mynumber").val());
-    var storedarray = mypingfunction(myresult);
-    storedarray.forEach(function(myouttput){
+   var userInput = parseInt($("input#userNumber").val());
+    var storedArray = play(userInput);
+    storedArray.forEach(function(output){
 
-      $("#answers").append("<li>" + myouttput + "</li>");
+      $("#answers").append("<li>" + output + "</li>");
       event.preventDefault();
     });
 
