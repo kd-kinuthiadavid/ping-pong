@@ -3,8 +3,8 @@
 #### By **KINUTHIA DAVID**
 ## DESCRIPTION:
 Allows a user to input a number and displays ping for numbers divisible by 3, pong for numbers divisible by 5, and pingpong for numbers divisible by 15.
-![Landing page photo](images/screenshot.png)
-![Landing page photo](images/screenshotPing.png)
+![Landing page photo](images/finalScreenshotA.png)
+![Landing page photo](images/screenshotFinalB.png)
 
 ## SPECIFICATIONS:
 ### allows a user to input a number
@@ -30,7 +30,7 @@ else {storedarray.push(i);
 
 
 ## SETUP/INSTALLATION:
-* Does not require any installation as it is a webpage and not a software-based game
+* Does not require any installation as it is a webpage and not a software-based game.Click on the following link to visit the webpage
 [ping pong](https://kd-kinuthiadavid.github.io/ping-pong/)
 
 ## KNOWN BUGS:
