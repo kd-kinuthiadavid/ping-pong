@@ -1,7 +1,7 @@
 body{
-background-color: #DAD0EC;
-/* background-size: cover; */
-
+background-color: #F9BAE0;
+background: url("../images/geometric3.jpg");
+background-size: cover;
 }
 .PING-PONG{
   border-radius: 100px;
@@ -15,6 +15,18 @@ font-family: 'Limelight', cursive;
 font-size: 16px;
 font-style: italic;
 font-weight: bold;
+float: left;
+
+}
+.creatorWell{
+  background-color: #68459B;
+  background: url("../images/blackboard1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #0B5838;
+  color: white;
 }
 .Rules{
   padding-top: 50px;
@@ -22,12 +34,36 @@ font-weight: bold;
   font-size: 16px;
   font-style: italic;
   font-weight: bold;
-
+  float: right;
+}
+.rulesWell{
+  background: url("../images/blackboard1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #0B5838;
+  color: white;
+  height: 386px;
 }
 .PLAY{
   font-family: 'Limelight', cursive;
   font-size: 16px;
   font-style: italic;
   font-weight: bold;
+  background-color: grey;
 
+}
+.answerSection{
+  background: url("../images/blackboard1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #0B5838;
+  color: white;
+}
+.myButton{
+  background-color: #FA7004;
+  border-color: #F6CF0B;
 }
