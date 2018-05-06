@@ -9,13 +9,21 @@ Allows a user to input a number and displays ping for numbers divisible by 3, po
 #### Specifications
 ### allows a user to input a number
 ### numbers that are divisible by 3 become ping
-* if ((i%3) === 0) { storedarray.push("ping");
+```
+if ((i%3) === 0) { storedarray.push("ping");
+```
 ### numbers that are divisible by 5 become PONG
-* else if ((i%5) === 0 ){  storedarray.push("pong");
+```
+ else if ((i%5) === 0 ){  storedarray.push("pong");
+ ```
 ### numbers that are divisible by 15 become PINGPONG
-*  else if ((i%15) === 0) {storedarray.push("pingpong");
+```
+else if ((i%15) === 0) {storedarray.push("pingpong");
+```
 ### if a number is neither divisible  by 3, 5, or 15, the number is displayed as it is
-* else {storedarray.push(i);
+```
+else {storedarray.push(i);
+  ```
 
 
 
