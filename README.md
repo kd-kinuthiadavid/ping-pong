@@ -3,8 +3,8 @@
 #### By **KINUTHIA DAVID**
 ## Description
 Allows a user to input a number and displays ping for numbers divisible by 3, pong for numbers divisible by 5, and pingpong for numbers divisible by 15.
-##Specifications
-* allows a user to input a number
+### Specifications
+## ** allows a user to input a number **
 * numbers that are divisible by 3 become ping
 ### ** if ((i%3) === 0) { storedarray.push("ping"); **
 * numbers that are divisible by 5 become PONG

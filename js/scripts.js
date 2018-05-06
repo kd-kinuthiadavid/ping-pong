@@ -7,7 +7,7 @@ function play(userInput){
    }else if ((i%5) === 0 ){
      storedArray.push("pong");
    }else if ((i%15) === 0) {
-     storedArray.push("pingpong");
+     storedArray.push("ping-pong");
    }else {
      storedArray.push(i);
    }
