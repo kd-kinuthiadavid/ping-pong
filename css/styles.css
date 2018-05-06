@@ -1,7 +1,7 @@
 body{
-background-color: #F9BAE0;
-background: url("../images/geometric3.jpg");
-background-size: cover;
+  background-color: #F9BAE0;
+  background: url("../images/geometric3.jpg");
+  background-size: cover;
 }
 .PING-PONG{
   border-radius: 100px;
@@ -11,11 +11,11 @@ background-size: cover;
 }
 .Creator{
   padding-top: 50px;
-font-family: 'Limelight', cursive;
-font-size: 16px;
-font-style: italic;
-font-weight: bold;
-float: left;
+  font-family: 'Limelight', cursive;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  float: left;
 
 }
 .creatorWell{
