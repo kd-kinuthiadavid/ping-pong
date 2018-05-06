@@ -1,12 +1,12 @@
 # PING-PONG
 #### returns ping pong upon input of a number , 4th May,2018.
 #### By **KINUTHIA DAVID**
-## Description
+## DESCRIPTION:
 Allows a user to input a number and displays ping for numbers divisible by 3, pong for numbers divisible by 5, and pingpong for numbers divisible by 15.
 ![Landing page photo](images/screenshot.png)
 ![Landing page photo](images/screenshotPing.png)
 
-#### Specifications
+## SPECIFICATIONS:
 ### allows a user to input a number
 ### numbers that are divisible by 3 become ping
 ```
@@ -29,15 +29,28 @@ else {storedarray.push(i);
 
 
 
-## Setup/Installation Requirements
+## SETUP/INSTALLATION:
 * Does not require any installation as it is a webpage and not a software-based game
 [ping pong](https://kd-kinuthiadavid.github.io/ping-pong/)
 
-## Known Bugs
+## KNOWN BUGS:
 No known bugs as od the time of publishing
-## Technologies Used
-HTML, CSS, javascript, jquery, bootstrap.
-## Support and contact details
+## BUILT WITH:
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* jQuerry
+## SUPPORT AND CONTACT DETAILS:
 Email:kd.kinuthiadavid@gmail.com
+
+## ACKNOWLEDGEMENTS:
+
+* hats off for my Technical Mentors(TMs) at Moringa School for their support during my coursework
+* MORINGA SCHOOL for the facilitation of the much needed and appreciated infrastructure/facilities/environment
+* colleagues/classmates
+## LICENSE:
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
 
 Copyright (c) 2018 **KINUTHIA DAVID.**
