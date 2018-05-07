@@ -8,11 +8,11 @@ function play(userInput){
 
   for (var i = 1; i <= userInput; i++) {
     if ((i%15) === 0) {
-      storedArray.push("ping");
-    }else if ((i%3) === 0 ){
-      storedArray.push("pong");
-    }else if ((i%5) === 0){
       storedArray.push("pingpong");
+    }else if ((i%3) === 0 ){
+      storedArray.push("ping");
+    }else if ((i%5) === 0){
+      storedArray.push("pong");
     }else {
       storedArray.push(i);
     }
