@@ -7,11 +7,11 @@ function play(userInput){
   var storedArray = [];
 
   for (var i = 1; i <= userInput; i++) {
-    if ((i%3) === 0) {
+    if ((i%15) === 0) {
       storedArray.push("ping");
-    }else if ((i%5) === 0 ){
+    }else if ((i%3) === 0 ){
       storedArray.push("pong");
-    }else if ((i%15) === 0){
+    }else if ((i%5) === 0){
       storedArray.push("pingpong");
     }else {
       storedArray.push(i);
